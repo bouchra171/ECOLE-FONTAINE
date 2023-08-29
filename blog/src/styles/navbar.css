@@ -1,0 +1,162 @@
+.navbare {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 14px;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+nav {
+ 
+  background: linear-gradient(#007bff, #333);
+  transition: background 0.3s ease-in-out;
+}
+
+.navbare h2 {
+  padding-left: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.nave-link {
+  display: flex;
+  align-items: center;
+  gap: 15px
+}
+
+.nave-link li .link {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.nave-link li .link:hover {
+  background-color: #6a3d9a;
+  color: white;
+}
+
+.nave-link-mobile,
+.toggle-menu,
+.nave-login-mobile {
+  display: none;
+  margin-bottom: 4px;
+}
+
+li {
+  list-style: none;
+}
+
+.nave-login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  height: 45px;
+  border: 2px solid #fff;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.btn-login,
+.btn-register,
+.btn-logout {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 12px;
+  background-color: transparent;
+  background-image: none;
+  transition: background-color 0.3s; 
+}
+
+.btn-login {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-register {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-logout {
+  color: #007bff;;
+  border-color:#007bff;;
+}
+
+.btn-login:hover,
+.btn-register:hover,
+.btn-logout:hover {
+  color: #fff;
+  background-color: #6a3d9a;
+  border-color: #6a3d9a;
+}
+
+/* Styles spécifiques aux tablettes */
+@media screen and (max-width: 830px) {
+  .nave-link,
+  .nave-login {
+    display: none;
+  }
+
+  .toggle-menu {
+    display: flex;
+    padding-right: 15px;
+  }
+
+  .nave-link-mobile {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 0 0 7px 7px;
+    padding: 4px 8px 15px;
+  }
+
+  .link,
+  .link:hover,
+  .active {
+    padding: 0 10px;
+    border-radius: 7px;
+  }
+
+  .link:hover,
+  .active {
+    background-color: #6a3d9a;
+  }
+
+  .navbare h2 {
+    margin-left: 10px;
+  }
+
+  .user-image {
+    height: 40px;
+    margin-right: 8px;
+  }
+}
+
+/* Styles spécifiques aux appareils mobiles */
+@media screen and (max-width: 480px) {
+  .navbare h2 {
+    margin: 10px 0;
+  }
+
+  .nave-link {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .user-image {
+    height: 35px;
+    margin-right: 6px;
+  }
+}

@@ -1,0 +1,126 @@
+.user-count{
+    background-image: linear-gradient(to right top, #051937, #094462, #277387, #57a4a6, #94d6c1);
+}
+.role-count{
+    background-image: linear-gradient(to right top, #d7bdb0, #c777b9, #491459, #aa8fd8, #1010b5, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.category-count{
+    background-image: linear-gradient(to right top, #a3b0c5, #094462, #277387, #0b2b2c, #7c8481);
+}
+.article-count{
+    background-image: linear-gradient(to right top, #47cb71, #c67cba, #b98cca, #442c74, #a6a8d9, #32477c, #0c2f59, #7ea6c4, #6399b1, #4c8c9b, #397f84, #2d716c);
+}
+.comment-count{
+    background-image: linear-gradient(to right top, #d16ba5, #c67cba, #b98cca, #ae9bd4, #a6a8d9, #96a8d4, #88a7cd, #7ea6c4, #6399b1, #4c8c9b, #397f84, #2d716c);
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:12px;
+    height: 60px;
+    padding-right: 2rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .user-icon {
+    cursor: pointer;
+  }
+  
+  .logout-icon {
+    cursor: pointer;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 17px;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dashboard-stat {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 1rem;
+  }
+  
+  .stat-value {
+    font-weight: bold;
+  }
+  
+  .dashboard-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .article-card {
+    width: 14rem;
+  }
+  
+  .article-image {
+    height: 10rem;
+    width: auto;
+  }
+  
+  .article-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .article-title {
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .article-info {
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .article-category {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .article-date {
+    font-size: 12px;
+    font-style: italic;
+  }
+  

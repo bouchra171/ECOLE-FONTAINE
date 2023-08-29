@@ -1,0 +1,29 @@
+.comment-card {
+    display: flex;
+    justify-content: space-between;
+    min-width: 15rem;
+    width: auto;
+}
+
+.comment-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    font-weight: 600;
+}
+
+.comment-author {
+    font-style: italic;
+}
+
+.action-icons>div:first-child {
+    flex: 1;
+}
+
+.action-icons>div:last-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}

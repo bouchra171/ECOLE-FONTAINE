@@ -1,0 +1,43 @@
+/* Cercles */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pink {
+  background-color: var(--pink);
+  top: 25%;
+  left: 35%;
+  border: 5px solid var(--pink);
+}
+
+.lightgreen {
+  background-color: var(--lightgreen);
+  top: 35%;
+  left: 55%;
+  border: 5px solid var(--lightgreen);
+}
+
+.darkgreen {
+  background-color: var(--darkgreen);
+  top: 60%;
+  left: 25%;
+  border: 5px solid var(--darkgreen);
+}
+
+.blue {
+  background-color: var(--blue);
+  top: 70%;
+  left: 45%;
+  border: 5px solid var(--blue);
+}
+
+/* Effet au survol */
+.circle:hover {
+  transform: scale(1.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

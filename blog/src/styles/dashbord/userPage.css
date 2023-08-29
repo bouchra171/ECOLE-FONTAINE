@@ -1,0 +1,11 @@
+  .user-page-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:12px;
+    height: 60px !important;
+    padding-right: 1rem;
+  }
+  
+
+  
