@@ -26,6 +26,3 @@ app.use('/comments', commentRoutes);
 app.listen(PORT, () => {
   console.log(`Server started on port http://localhost:${PORT}`);
 });
-
-
-
