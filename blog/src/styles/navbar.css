@@ -12,7 +12,7 @@
 
 nav {
  
-  background: linear-gradient(#007bff, #333);
+  background: linear-gradient(#88a8ce, #333);
   transition: background 0.3s ease-in-out;
 }
 
@@ -36,7 +36,7 @@ nav {
   transition: background-color 0.3s;
 }
 .nave-link li .link:hover {
-  background-color: #6a3d9a;
+  background-color: white;;
   color: white;
 }
 
@@ -77,8 +77,8 @@ li {
 }
 
 .btn-login {
-  color: #007bff;
-  border-color: #007bff;
+  color: #8abfcf;
+  border-color: #8abfcf;;
 }
 
 .btn-register {
@@ -97,6 +97,15 @@ li {
   color: #fff;
   background-color: #6a3d9a;
   border-color: #6a3d9a;
+}
+
+
+.toggle-navbar-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 /* Styles spécifiques aux tablettes */

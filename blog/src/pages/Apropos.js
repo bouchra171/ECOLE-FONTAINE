@@ -20,10 +20,14 @@ const Apropos = () => {
                 L'école a toujours été très attachée à son héritage littéraire et culturel, et elle accorde une grande importance à l'enseignement des lettres et des arts. De nombreuses activités sont organisées autour de l'œuvre de La Fontaine, telles que des lectures de fables, des ateliers de théâtre et des expositions d'art. En plus des Fables, l'école met l'accent sur la littérature classique et moderne, encourageant les élèves à développer leur curiosité intellectuelle et leur goût pour la lecture.
               </p>
             </div>
-            <img src="../img/ecolelafontaine.jpg" alt="École La Fontaine" />
+            <div className="Apropos-image-wrapper">
+  <img src="../img/ecolelafontaine.jpg" alt="École La Fontaine"    className="first-image"/>
+</div>
           </div>
           <div className="Apropos-content">
-            <img src="../img/enfants-heureux-ecole.jpg" alt="enfant" />
+          <div className="Apropos-image-wrapper">
+            <img src="../img/photom.jpg" alt="enfant" />
+            </div>
             <div className="Apropos-text">
               <h2>Notre engagement envers l'éducation moderne</h2>
               <p>
@@ -37,7 +41,9 @@ const Apropos = () => {
 <h2>Notre engagement envers l’éducation moderne</h2>
 <p> Aujourd’hui, l’école Jean La Fontaine est fière de ses réalisations et de son héritage. Grâce à un enseignement de qualité et à une philosophie basée sur les valeurs humanistes de Jean de La Fontaine, l’établissement continue de contribuer au développement des jeunes esprits et à la transmission de la culture française. En s’appuyant sur son histoire riche et sur les succès de ses élèves et de ses enseignants, l’école Jean La Fontaine est prête à relever les défis du XXIe siècle et à former les leaders de demain. </p>
 </div>
-<img src="../img/photo2.jpg" alt="École La Fontaine" />
+<div className="Apropos-image-wrapper">
+<img src="../img/echelle.jpg" alt="École La Fontaine" />
+</div>
 </div>
 </div>
 </main>

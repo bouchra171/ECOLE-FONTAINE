@@ -31,7 +31,7 @@ const objectifs = [
 function Objectif() {
   return (
     <div className="objectif-container">
-      <h2 className="objectif-title">Objectifs d'apprentissage</h2>
+      <h2 className="objectif-title">Nos Super Objectifs</h2>
       <div className="objectif-content">
         <div className="objectif-text">
           <ul className="objectif-list">
