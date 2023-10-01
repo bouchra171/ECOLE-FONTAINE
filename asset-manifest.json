@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ecole-Fontaine/static/css/main.05c12ba3.css",
-    "main.js": "/Ecole-Fontaine/static/js/main.65cac6a2.js",
+    "main.js": "/Ecole-Fontaine/static/js/main.a8fcf79e.js",
     "static/media/slick.svg": "/Ecole-Fontaine/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Ecole-Fontaine/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Ecole-Fontaine/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Ecole-Fontaine/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Ecole-Fontaine/index.html",
     "main.05c12ba3.css.map": "/Ecole-Fontaine/static/css/main.05c12ba3.css.map",
-    "main.65cac6a2.js.map": "/Ecole-Fontaine/static/js/main.65cac6a2.js.map"
+    "main.a8fcf79e.js.map": "/Ecole-Fontaine/static/js/main.a8fcf79e.js.map"
   },
   "entrypoints": [
     "static/css/main.05c12ba3.css",
-    "static/js/main.65cac6a2.js"
+    "static/js/main.a8fcf79e.js"
   ]
 }
